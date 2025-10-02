@@ -41,7 +41,9 @@ func main() {
 			goto theEnd
 		}
 	}
-	theEnd : println("end of program")
+
+theEnd:
+	println("ENd of program")
 	fmt.Printf("Sum: %v\n", sum)
 
 }
